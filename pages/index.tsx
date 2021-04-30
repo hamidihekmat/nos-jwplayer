@@ -4,29 +4,29 @@ import Player from '../components/Player';
 import { Playlist } from '../interfaces/playlist.interface';
 
 const playlist: Playlist = {
-  title: 'Ratatouille',
+  title: 'The Courier',
   description:
-    'A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.',
+    'Cold War spy Greville Wynne and his Russian source try to put an end to the Cuban Missile Crisis.',
   sources: [
     {
-      file: 'https://fast.noss.workers.dev/1GklB6QzqqWMxlRCw9MLpyKgQxokyv2yV',
+      file: 'https://fast.noss.workers.dev/19O52LkQtNb7MzqAJOsMfI6nQHtZcmmTh',
       type: 'video/mp4',
       label: '1080p',
       default: true,
     },
     {
-      file: 'https://fast.noss.workers.dev/1GklB6QzqqWMxlRCw9MLpyKgQxokyv2yV',
+      file: 'https://fast.noss.workers.dev/19O52LkQtNb7MzqAJOsMfI6nQHtZcmmTh',
       type: 'video/mp4',
       label: '720p',
     },
   ],
 
   image:
-    'https://m.media-amazon.com/images/M/MV5BMTU3ODA3MTQ3NV5BMl5BanBnXkFtZTcwMzA5MzMzMw@@._V1_.jpg',
+    'https://m.media-amazon.com/images/M/MV5BODBlMzlkYTYtMjJhOC00MjY3LWI1ZDItNGRiNDkxNjIwZGVjXkEyXkFqcGdeQXVyNTE2Mzc2MDI@._V1_.jpg',
   tracks: [
     {
       file:
-        'https://thirsty-keller-bed1cc.netlify.app/api/subtitle?imdb=tt0382932',
+        'https://thirsty-keller-bed1cc.netlify.app/api/subtitle?imdb=tt8368512',
       label: 'English',
       kind: 'subtitles',
     },
