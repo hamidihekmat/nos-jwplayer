@@ -1,0 +1,118 @@
+/*Fonts */
+@font-face {
+  font-family: 'Netflix Sans';
+  font-weight: 100;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2)
+      format('woff2'),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff)
+      format('woff');
+}
+@font-face {
+  font-family: 'Netflix Sans';
+  font-weight: 300;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2)
+      format('woff2'),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff)
+      format('woff');
+}
+@font-face {
+  font-family: 'Netflix Sans';
+  font-weight: 400;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2)
+      format('woff2'),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff)
+      format('woff');
+}
+@font-face {
+  font-family: 'Netflix Sans';
+  font-weight: 700;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2)
+      format('woff2'),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff)
+      format('woff');
+}
+@font-face {
+  font-family: 'Netflix Sans';
+  font-weight: 800;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2)
+      format('woff2'),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff)
+      format('woff');
+}
+@font-face {
+  font-family: 'Netflix Sans';
+  font-weight: 900;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2)
+      format('woff2'),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff)
+      format('woff');
+}
+
+/* jwplayer styles */
+#player {
+  min-height: 100vh;
+  max-height: 100vh;
+  min-width: 100vw;
+  max-width: 100vw;
+}
+
+.jw-captions {
+  color: white !important;
+}
+
+.vtt {
+  font-family: 'Netflix Sans', sans-serif !important;
+  font-weight: 700 !important;
+  text-shadow: rgba(0, 0, 0, 1) 0em 0em 0.2em !important;
+  position: fixed;
+  bottom: 15% !important;
+  line-height: normal;
+  white-space: pre-wrap !important;
+  text-align: center !important;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 2147483647;
+  background-color: transparent !important;
+  color: #ffff;
+  font-size: 1.6vw;
+}
+
+.jw-text-track-container .jw-reset {
+  display: none;
+}
+
+.jw-title-primary {
+  font-family: 'Netflix Sans', sans-serif !important;
+  font-weight: 900 !important;
+  text-shadow: rgba(0, 0, 0, 1) 0em 0em 0.2em !important;
+  font-size: 2vw !important;
+  margin: 0 2vw !important;
+  margin-top: 1.2vw !important;
+}
+
+.jw-title-secondary {
+  font-family: 'Netflix Sans', sans-serif !important;
+  font-weight: 700 !important;
+  text-shadow: rgba(0, 0, 0, 1) 0em 0em 0.2em !important;
+  opacity: 0.8;
+  margin: 0 2vw !important;
+  white-space: pre-wrap !important;
+  font-size: 1.4vw !important;
+  line-height: normal !important;
+}
+.jw-preview {
+  filter: brightness(0.8);
+}
+#movie-title {
+  font-family: 'Netflix Sans', sans-serif !important;
+  color: white !important;
+  white-space: nowrap !important;
+  padding: 1vw 1.5vw;
+  font-size: 1em;
+  opacity: 0.9;
+  margin-bottom: 3px;
+}
+
+video::-webkit-media-text-track-container {
+  display: none;
+}
