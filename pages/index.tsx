@@ -26,7 +26,7 @@ const playlist: Playlist = {
   tracks: [
     {
       file:
-        'https://thirsty-keller-bed1cc.netlify.app/api/subtitle?imdb=tt9203694',
+        'https://thirsty-keller-bed1cc.netlify.app/api/subtitle?imdb=tt0499097',
       label: 'English',
       kind: 'subtitles',
     },
