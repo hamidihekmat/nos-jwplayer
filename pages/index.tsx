@@ -4,9 +4,9 @@ import Player from '../components/Player';
 import { Playlist } from '../interfaces/playlist.interface';
 
 const playlist: Playlist = {
-  title: 'Stowaway',
+  title: "Tom Clancy's Without Remorse",
   description:
-    'A stowaway on a mission to Mars sets off a series of unintended consequences.',
+    "John Clark, a Navy SEAL, goes on a path to avenge his wife's murder only to find himself inside of a larger conspiracy.",
   sources: [
     {
       file: 'https://fast.noss.workers.dev/17QYnb2rDQOpg57zHPOeyMyDRVcQ-jH-R',
