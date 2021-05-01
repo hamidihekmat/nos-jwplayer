@@ -1,8 +1,9 @@
 import ReactJWPlayer from 'react-jw-player';
 import { useJWPlayer } from '../hooks/useJWPlayer';
-import { Playlist } from '../interfaces/playlist.interface';
+import { PlayerProp } from '../interfaces/playlist.interface';
+import { FunctionComponent } from 'react';
 
-const Player = (playlist: Playlist) => {
+const Player: FunctionComponent<PlayerProp> = ({ playlist }) => {
   const [onReady] = useJWPlayer(playlist);
   return (
     <ReactJWPlayer

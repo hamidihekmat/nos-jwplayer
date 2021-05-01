@@ -4,29 +4,29 @@ import Player from '../components/Player';
 import { Playlist } from '../interfaces/playlist.interface';
 
 const playlist: Playlist = {
-  title: 'The Courier',
+  title: 'Stowaway',
   description:
-    'Cold War spy Greville Wynne and his Russian source try to put an end to the Cuban Missile Crisis.',
+    'A stowaway on a mission to Mars sets off a series of unintended consequences.',
   sources: [
     {
-      file: 'https://fast.noss.workers.dev/19O52LkQtNb7MzqAJOsMfI6nQHtZcmmTh',
+      file: 'https://fast.noss.workers.dev/17QYnb2rDQOpg57zHPOeyMyDRVcQ-jH-R',
       type: 'video/mp4',
       label: '1080p',
       default: true,
     },
     {
-      file: 'https://fast.noss.workers.dev/19O52LkQtNb7MzqAJOsMfI6nQHtZcmmTh',
+      file: 'https://fast.noss.workers.dev/17QYnb2rDQOpg57zHPOeyMyDRVcQ-jH-R',
       type: 'video/mp4',
       label: '720p',
     },
   ],
 
   image:
-    'https://m.media-amazon.com/images/M/MV5BODBlMzlkYTYtMjJhOC00MjY3LWI1ZDItNGRiNDkxNjIwZGVjXkEyXkFqcGdeQXVyNTE2Mzc2MDI@._V1_.jpg',
+    'https://m.media-amazon.com/images/M/MV5BZDkxYzYwMjAtYjM0MS00YThlLWFmNzctM2E0ZGJkMThkYjU1XkEyXkFqcGdeQXZ3ZXNsZXk@._V1_.jpg',
   tracks: [
     {
       file:
-        'https://thirsty-keller-bed1cc.netlify.app/api/subtitle?imdb=tt8368512',
+        'https://thirsty-keller-bed1cc.netlify.app/api/subtitle?imdb=tt9203694',
       label: 'English',
       kind: 'subtitles',
     },
@@ -36,7 +36,7 @@ const playlist: Playlist = {
 export default function Home() {
   return (
     <div>
-      <Player {...playlist} />
+      <Player playlist={playlist} />
     </div>
   );
 }

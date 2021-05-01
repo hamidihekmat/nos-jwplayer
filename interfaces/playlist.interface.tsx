@@ -1,10 +1,14 @@
-export interface Playlist {
+export interface PlayerProp {
+  playlist: Playlist;
+}
+
+export type Playlist = {
   title: string;
   description: string;
   sources: MediaSource[];
   image?: string;
   tracks: TrackSource[];
-}
+};
 
 type MediaSource = {
   file: string;
@@ -15,6 +19,6 @@ type MediaSource = {
 
 type TrackSource = {
   file: string;
-  label: 'English';
-  kind: 'subtitles';
+  label: string;
+  kind: 'subtitles' | 'captions';
 };
