@@ -54,6 +54,7 @@
   max-height: 100vh;
   min-width: calc(100vw - 100px);
   max-width: calc(100vw - 100px);
+  background: #151515;
 }
 
 .jw-captions {

@@ -28,7 +28,7 @@ function Menu() {
     >
       <MenuItem ariaLabel="Home" href="/" icon={<HomeIcon />} />
       <MenuItem ariaLabel="Movies" href="/watch" icon={<MovieIcon />} />
-      <MenuItem ariaLabel="TV Shows" href="/watch" icon={<TVIcon />} />
+      <MenuItem ariaLabel="TV Shows" href="/tv" icon={<TVIcon />} />
       <IconButton
         width="99px"
         aria-label="Search"
@@ -50,7 +50,7 @@ function Menu() {
           outline: 'none',
         }}
         onClick={handleSearchClick}
-        icon={<SearchIcon />}
+        icon={<SearchIcon style={{ stroke: '#fffff' }} />}
       />
     </Box>
   );

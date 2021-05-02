@@ -19,14 +19,3 @@ a {
   margin: 0;
   padding: 0;
 }
-
-a:active svg {
-  stroke: #2196f3;
-}
-svg:hover {
-  opacity: 0.8;
-}
-svg {
-  stroke: #ffff;
-  transition: all 0.2s ease-in;
-}
