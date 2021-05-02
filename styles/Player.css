@@ -86,7 +86,7 @@
   font-family: 'Netflix Sans', sans-serif !important;
   font-weight: 900 !important;
   text-shadow: rgba(0, 0, 0, 1) 0em 0em 0.2em !important;
-  font-size: 2vw !important;
+  font-size: 1.8vw !important;
   margin: 0 2vw !important;
   margin-top: 1.2vw !important;
 }
@@ -98,7 +98,7 @@
   opacity: 0.8;
   margin: 0 2vw !important;
   white-space: pre-wrap !important;
-  font-size: 1.4vw !important;
+  font-size: 1.2vw !important;
   line-height: normal !important;
 }
 .jw-preview {
