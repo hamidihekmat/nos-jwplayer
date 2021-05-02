@@ -22,8 +22,7 @@ const playlist: Playlist = {
     },
   ],
 
-  image:
-    'https://m.media-amazon.com/images/M/MV5BZDkxYzYwMjAtYjM0MS00YThlLWFmNzctM2E0ZGJkMThkYjU1XkEyXkFqcGdeQXZ3ZXNsZXk@._V1_.jpg',
+  image: 'https://image.tmdb.org/t/p/original/fPGeS6jgdLovQAKunNHX8l0avCy.jpg',
   tracks: [
     {
       file:
