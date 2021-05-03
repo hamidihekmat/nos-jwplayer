@@ -20,9 +20,10 @@ export const useJWPlayer = (playlist: Playlist) => {
       if (settingsElement) settingsElement.remove();
     });
     const jw = document.getElementById('player');
+    const wrapper = document.getElementsByClassName('jw-wrapper')[0];
     const vttDiv = document.createElement('div');
     vttDiv.className = 'vtt';
-    jw.appendChild(vttDiv);
+    wrapper.appendChild(vttDiv);
     // Add Keyboard Press
     jw.addEventListener('keypress', ({ keyCode }) => {
       if (keyCode === 119 || keyCode === 87) {

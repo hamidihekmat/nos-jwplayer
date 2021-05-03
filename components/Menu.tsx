@@ -21,8 +21,12 @@ function Menu() {
       minH="100vh"
       bg="#000000"
       color="#ffffff"
+      overflow="hidden"
+      position="fixed"
+      top="0"
       margin="0px"
       lineHeight="16px"
+      borderBottom="none"
       borderRight="1px solid rgba(255,255,255,.25)"
       borderColor="#fffff"
     >

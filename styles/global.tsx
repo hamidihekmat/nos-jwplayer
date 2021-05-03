@@ -14,6 +14,10 @@ export const theme = extendTheme({
     'html, body': {
       background: '#00000',
       '-webkit-font-smoothing': 'antialiased',
+      scrollBehavior: 'smooth',
+    },
+    li: {
+      textAlign: '-webkit-match-parent',
     },
   },
   components: {},

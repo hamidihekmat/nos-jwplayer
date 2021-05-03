@@ -54,6 +54,7 @@
   max-height: 100vh;
   min-width: calc(100vw - 100px);
   max-width: calc(100vw - 100px);
+  margin-left: 100px;
   background: #151515;
 }
 
@@ -76,6 +77,7 @@
   background-color: transparent !important;
   color: #ffff;
   font-size: 1.8vw;
+  position: absolute;
 }
 
 .jw-text-track-container .jw-reset {
