@@ -5,8 +5,16 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const WatchMeta: FunctionComponent<WatchMetaProp> = ({ movie }) => {
   return (
-    <Box width="100%" bg="#151515" ml="100px" color="#ffffff">
-      <Box display="flex" w="90vw" m="auto" padding="8vh 0">
+    <Box width="100%" bg="#151515" paddingLeft="100px" color="#ffffff">
+      <Box
+        display="flex"
+        max-width="90%"
+        minw="90%"
+        w="90%"
+        m="auto"
+        padding="8vh 0"
+        overflow="hidden"
+      >
         {/* Poster */}
         <LazyLoadImage
           alt={movie.original_title}
@@ -15,7 +23,7 @@ const WatchMeta: FunctionComponent<WatchMetaProp> = ({ movie }) => {
           src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`}
         />
         {/* Movie Meta */}
-        <Box ml="3em">
+        <Box ml="3em" mr="1rem">
           <Text fontSize="3xl" fontWeight="bold">
             Storyline
           </Text>
