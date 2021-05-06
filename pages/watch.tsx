@@ -1,7 +1,7 @@
 import JWPlayer from '../components/JWPlayer';
 import { Playlist } from '../interfaces/player.interface';
 import { Movie } from '../interfaces/movie.interface';
-import styled from '@emotion/styled';
+import { ScrollableContainer } from '../components/ReusableStyles';
 import WatchDetails from '../components/WatchDetails';
 
 // Temporary Movie
@@ -117,20 +117,11 @@ const playlist: Playlist = {
 
 function watch() {
   return (
-    <StyledWatch>
+    <ScrollableContainer>
       <JWPlayer playlist={playlist} />
       <WatchDetails movie={movie} />
-    </StyledWatch>
+    </ScrollableContainer>
   );
 }
-
-const StyledWatch = styled.div`
-  overflow: hidden;
-  overflow-y: scroll;
-  ::-webkit-scrollbar {
-    width: 0; /* Remove scrollbar space */
-    background: transparent; /* Optional: just make scrollbar invisible */
-  }
-`;
 
 export default watch;
