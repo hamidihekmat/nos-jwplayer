@@ -19,20 +19,18 @@ export const GlobalStyle = (props) => (
 
         -webkit-font-smoothing: antialiased;
         scroll-behavior: smooth;
-        .scrollbar::-webkit-scrollbar-thumb {
-          background-color: rgba(0, 0, 0, 0);
-          border-radius: 16px;
-          border: 5px solid #fff;
-        }
+      }
+      body::-webkit-scrollbar {
+        width: 0.5em;
+      }
 
-        .scrollbar:hover::-webkit-scrollbar-thumb {
-          background-color: #a0a0a5;
-        }
+      body::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      }
 
-        .scrollbar::-webkit-scrollbar-thumb:hover {
-          background-color: #a0a0a5;
-          border: 4px solid #f4f4f4;
-        }
+      body::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        border-radius: 16px;
       }
 
       a {
