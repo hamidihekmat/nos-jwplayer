@@ -1,3 +1,4 @@
+import '../styles/font.css';
 import { GlobalStyle } from '../styles/global';
 import styled from 'styled-components';
 import Menu from '../components/Menu';
