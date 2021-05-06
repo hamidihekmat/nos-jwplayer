@@ -128,25 +128,22 @@ const StyledWatch = styled.div`
   overflow: hidden;
   overflow-y: scroll;
   ::-webkit-scrollbar {
-    background-color: #000000;
-    width: 16px;
+    width: 10px;
   }
 
-  /* background of the scrollbar except button or resizer */
+  /* Track */
   ::-webkit-scrollbar-track {
-    background-color: #000000;
+    background: #000000;
   }
 
-  /* scrollbar itself */
+  /* Handle */
   ::-webkit-scrollbar-thumb {
-    background-color: #babac0;
-    border-radius: 16px;
-    border: 4px solid #fff;
+    background: #888;
   }
 
-  /* set button(top and bottom of the scrollbar) */
-  ::-webkit-scrollbar-button {
-    display: none;
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
   }
 `;
 
