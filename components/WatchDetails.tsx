@@ -1,5 +1,5 @@
 import { FunctionComponent } from 'react';
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 import { WatchDetailsProp } from '../interfaces/movie.interface';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 const WatchDetails: FunctionComponent<WatchDetailsProp> = ({ movie }) => {

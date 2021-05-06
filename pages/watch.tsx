@@ -1,7 +1,7 @@
 import JWPlayer from '../components/JWPlayer';
 import { Playlist } from '../interfaces/player.interface';
 import { Movie } from '../interfaces/movie.interface';
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 import WatchDetails from '../components/WatchDetails';
 
 // Temporary Movie

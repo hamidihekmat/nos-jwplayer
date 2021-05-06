@@ -2,7 +2,7 @@ import { FunctionComponent } from 'react';
 import { PlayerProp } from '../interfaces/player.interface';
 import { useJWPlayer } from '../hooks/usePlayer';
 import ReactJWPlayer from 'react-jw-player';
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 
 const JWPlayer: FunctionComponent<PlayerProp> = ({ playlist }) => {
   const [onReady] = useJWPlayer(playlist);

@@ -1,6 +1,5 @@
-import { FunctionComponent, useState, useEffect } from 'react';
-import styled from 'styled-components';
-
+import { FunctionComponent } from 'react';
+import styled from '@emotion/styled';
 // SVG Icons
 import HomeIcon from '../public/home.svg';
 import MovieIcon from '../public/movie.svg';

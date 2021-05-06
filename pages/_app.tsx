@@ -1,6 +1,6 @@
 import '../styles/font.css';
 import { GlobalStyle } from '../styles/global';
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 import Menu from '../components/Menu';
 
 function MyApp({ Component, pageProps }) {
