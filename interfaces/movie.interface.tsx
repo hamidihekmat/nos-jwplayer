@@ -1,4 +1,4 @@
-export interface WatchMetaProp {
+export interface WatchDetailsProp {
   movie: Movie;
 }
 

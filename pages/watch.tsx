@@ -1,9 +1,8 @@
-import { Box } from '@chakra-ui/react';
-import Player from '../components/Player';
-// Props
-import { Playlist } from '../interfaces/playlist.interface';
+import JWPlayer from '../components/JWPlayer';
+import { Playlist } from '../interfaces/player.interface';
 import { Movie } from '../interfaces/movie.interface';
-import WatchMeta from '../components/WatchMeta';
+import styled from 'styled-components';
+import WatchDetails from '../components/WatchDetails';
 
 // Temporary Movie
 const movie: Movie = {
@@ -118,11 +117,15 @@ const playlist: Playlist = {
 
 function watch() {
   return (
-    <Box overflowY="scroll">
-      <Player playlist={playlist} />
-      <WatchMeta movie={movie} />
-    </Box>
+    <StyledWatch>
+      <JWPlayer playlist={playlist} />
+      <WatchDetails movie={movie} />
+    </StyledWatch>
   );
 }
+
+const StyledWatch = styled.div`
+  overflow-y: scroll;
+`;
 
 export default watch;

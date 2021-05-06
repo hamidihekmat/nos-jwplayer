@@ -1,4 +1,4 @@
-import { Playlist } from '../interfaces/playlist.interface';
+import { Playlist } from '../interfaces/player.interface';
 
 export const useJWPlayer = (playlist: Playlist) => {
   const onReady = () => {
