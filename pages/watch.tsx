@@ -127,24 +127,6 @@ function watch() {
 const StyledWatch = styled.div`
   overflow: hidden;
   overflow-y: scroll;
-  ::-webkit-scrollbar {
-    width: 10px;
-  }
-
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #000000;
-  }
-
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
 `;
 
 export default watch;

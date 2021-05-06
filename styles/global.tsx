@@ -19,6 +19,20 @@ export const GlobalStyle = (props) => (
 
         -webkit-font-smoothing: antialiased;
         scroll-behavior: smooth;
+        .scrollbar::-webkit-scrollbar-thumb {
+          background-color: rgba(0, 0, 0, 0);
+          border-radius: 16px;
+          border: 5px solid #fff;
+        }
+
+        .scrollbar:hover::-webkit-scrollbar-thumb {
+          background-color: #a0a0a5;
+        }
+
+        .scrollbar::-webkit-scrollbar-thumb:hover {
+          background-color: #a0a0a5;
+          border: 4px solid #f4f4f4;
+        }
       }
 
       a {
