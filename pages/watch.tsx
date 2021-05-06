@@ -127,6 +127,10 @@ function watch() {
 const StyledWatch = styled.div`
   overflow: hidden;
   overflow-y: scroll;
+  ::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
 `;
 
 export default watch;
