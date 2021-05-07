@@ -9,12 +9,13 @@ function Banner() {
     <Container>
       <BannerContainer>
         <BannerInfo>
-          <h1>{movie.title}</h1>
+          <Title>{movie.title}</Title>
           <div>
             <span>{movie.vote_average}</span>{' '}
             <span>{movie.vote_count} Reviews</span>{' '}
             <span>{movie.runtime} minutes</span>
           </div>
+          <Overview>{movie.overview}</Overview>
         </BannerInfo>
         <Box />
         <ImageBox>
@@ -56,13 +57,19 @@ const BannerInfo = styled.div`
   flex-direction: column;
   justify-content: center;
   margin-left: 3rem;
-  h1 {
-    font-size: 2.93em;
-    margin: 0.3em 0;
-  }
-  span {
-    font-size: 1.2em;
-  }
+  line-height: 2em;
+  max-width: 683px;
+  min-width: 683px;
+`;
+
+const Title = styled.p`
+  font-size: 2.4em;
+  font-weight: bold;
+  padding-bottom: 0.3em;
+`;
+
+const Overview = styled.p`
+  font-size: 1.3em;
 `;
 
 const Box = styled.div`
