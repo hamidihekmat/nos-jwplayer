@@ -1,16 +1,16 @@
 import { FunctionComponent } from 'react';
 import styled from '@emotion/styled';
 import { WatchDetailsProp } from '../interfaces/movie.interface';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import LazyImage from './LazyImage';
+
 const WatchDetails: FunctionComponent<WatchDetailsProp> = ({ movie }) => {
   return (
     <StyledWatchContainer>
       {/* Poster */}
       <StyledMovieDetails>
-        <LazyLoadImage
+        <LazyImage
           alt={movie.original_title}
-          effect="blur"
-          width="350px"
+          width={350}
           src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`}
         />
         <StyledMovieMeta>
