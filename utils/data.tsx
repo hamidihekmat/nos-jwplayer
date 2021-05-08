@@ -80,3 +80,50 @@ export const movie: Movie = {
   vote_average: 7.2,
   vote_count: 314,
 };
+
+export const newMovie: Movie = {
+  adult: false,
+  backdrop_path: '/vviYFL6bT0p2AkXI1WIKC2y0rRl.jpg',
+  belongs_to_collection: null,
+  budget: 0,
+  genres: [{ id: 27, name: 'Horror' }],
+  homepage: 'https://neonrated.com/films/in-the-earth',
+  id: 748853,
+  imdb_id: 'tt13429362',
+  original_language: 'en',
+  original_title: 'In the Earth',
+  overview:
+    'As a deadly virus ravages the world, Dr. Martin Lowery embarks on a mission to reach test site ATU327A, a research hub deep in the Arboreal Forest. The arduous journey, guided by park scout Alma, is set back by a nighttime attack that leaves the two bruised and shoeless. When they run into Zach, a man living off the grid, they gratefully accept his help. Zach’s intentions aren’t exactly what they seem, however, and a path out of the forest and into safety quickly fades as the line between myth and science blurs.',
+  popularity: 11.13,
+  poster_path: '/bUcWwnm2mHgllN4m95Xj8kSVyzp.jpg',
+  production_companies: [
+    {
+      id: 90733,
+      logo_path: '/3K9wCZTyDgop3ITK1rDi6T2PckE.png',
+      name: 'Neon',
+      origin_country: 'US',
+    },
+    {
+      id: 16853,
+      logo_path: '/f4OsvS3T5eNt7QvG2vJiOAIeS3B.png',
+      name: 'Rook Films',
+      origin_country: 'GB',
+    },
+  ],
+  production_countries: [
+    { iso_3166_1: 'GB', name: 'United Kingdom' },
+    { iso_3166_1: 'US', name: 'United States of America' },
+  ],
+  release_date: '2021-04-30',
+  revenue: 0,
+  runtime: 107,
+  spoken_languages: [
+    { english_name: 'English', iso_639_1: 'en', name: 'English' },
+  ],
+  status: 'Released',
+  tagline: 'Nature is a force of evil.',
+  title: 'In the Earth',
+  video: false,
+  vote_average: 5.5,
+  vote_count: 2,
+};
