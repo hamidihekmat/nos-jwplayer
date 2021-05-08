@@ -2,7 +2,7 @@ import JWPlayer from '../components/JWPlayer';
 import { Playlist } from '../interfaces/player.interface';
 import { ScrollableContainer } from '../components/ReusableStyles';
 import WatchDetails from '../components/WatchDetails';
-import { newMovie } from '../utils/data';
+import { sherlock } from '../utils/data';
 
 const playlist: Playlist = {
   title: 'Sherlock Holmes',
@@ -37,7 +37,7 @@ function watch() {
   return (
     <ScrollableContainer>
       <JWPlayer playlist={playlist} />
-      <WatchDetails movie={newMovie} />
+      <WatchDetails movie={sherlock} />
     </ScrollableContainer>
   );
 }
