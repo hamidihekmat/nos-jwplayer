@@ -19,6 +19,7 @@ export const GlobalStyle = (props) => (
 
         -webkit-font-smoothing: antialiased;
         scroll-behavior: smooth;
+        font-family: 'Netflix Sans', sans-serif;
       }
       body::-webkit-scrollbar {
         width: 0.5em;

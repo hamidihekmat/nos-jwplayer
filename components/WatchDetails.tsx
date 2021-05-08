@@ -83,15 +83,17 @@ const StyledMovieMeta = styled.div`
 `;
 
 const Title = styled.h1`
-  font-weight: bold;
+  font-weight: 900 !important;
 `;
 
 const Overview = styled.h3`
-  font-weight: normal;
+  font-weight: 700 !important;
+  opacity: 0.8;
 `;
 
 const List = styled.ul`
   margin-top: 1rem;
+  opacity: 0.8;
 `;
 
 const ListItem = styled.li`

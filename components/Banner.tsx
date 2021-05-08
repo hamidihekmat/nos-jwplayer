@@ -56,20 +56,22 @@ const BannerInfo = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 3rem;
-  line-height: 2em;
+  margin-left: 4rem;
   max-width: 683px;
   min-width: 683px;
 `;
 
 const Title = styled.p`
   font-size: 2.4em;
-  font-weight: bold;
+  font-weight: 900;
   padding-bottom: 0.3em;
 `;
 
 const Overview = styled.p`
+  margin-top: 0.5em;
   font-size: 1.3em;
+  font-weight: 700;
+  opacity: 0.8;
 `;
 
 const Box = styled.div`
