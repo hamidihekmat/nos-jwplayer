@@ -5,28 +5,28 @@ import WatchDetails from '../components/WatchDetails';
 import { newMovie } from '../utils/data';
 
 const playlist: Playlist = {
-  title: 'In the Earth',
+  title: 'Sherlock Holmes',
   description:
-    'As the world searches for a cure to a disastrous virus, a scientist and park scout venture deep in the forest for a routine equipment run.',
+    'Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose plot is a threat to all of England.',
   sources: [
     {
-      file: 'https://fast.noss.workers.dev/1D02T0C4zfY16nCPjJU4luYaMaNA8pMKH',
+      file: 'https://fast.noss.workers.dev/1im1k0cjdS8JpAyWSb8DHQF4unZk1PGIR',
       type: 'video/mp4',
       label: '1080p',
       default: true,
     },
     {
-      file: 'https://fast.noss.workers.dev/1D02T0C4zfY16nCPjJU4luYaMaNA8pMKH',
+      file: 'https://fast.noss.workers.dev/1im1k0cjdS8JpAyWSb8DHQF4unZk1PGIR',
       type: 'video/mp4',
       label: '720p',
     },
   ],
 
-  image: 'https://image.tmdb.org/t/p/original/vviYFL6bT0p2AkXI1WIKC2y0rRl.jpg',
+  image: 'https://image.tmdb.org/t/p/original/veXdzn7LL0bFIDGmE7tTkvRg0qV.jpg',
   tracks: [
     {
       file:
-        'https://thirsty-keller-bed1cc.netlify.app/api/subtitle?imdb=tt13429362',
+        'https://thirsty-keller-bed1cc.netlify.app/api/subtitle?imdb=tt0988045',
       label: 'English',
       kind: 'captions',
     },
