@@ -5,7 +5,7 @@ import WatchDetails from '../components/WatchDetails';
 import { newMovie } from '../utils/data';
 
 const playlist: Playlist = {
-  title: "Tom Clancy's Without Remorse",
+  title: 'In the Earth',
   description:
     'As the world searches for a cure to a disastrous virus, a scientist and park scout venture deep in the forest for a routine equipment run.',
   sources: [
@@ -28,7 +28,7 @@ const playlist: Playlist = {
       file:
         'https://thirsty-keller-bed1cc.netlify.app/api/subtitle?imdb=tt13429362',
       label: 'English',
-      kind: 'subtitles',
+      kind: 'captions',
     },
   ],
 };
