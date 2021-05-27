@@ -5,9 +5,9 @@ import WatchDetails from '../components/WatchDetails';
 import { sherlock } from '../utils/data';
 
 const playlist: Playlist = {
-  title: 'Sherlock Holmes',
+  title: 'Guardians of the Galaxy',
   description:
-    'Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose plot is a threat to all of England.',
+    'A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.',
   sources: [
     {
       file: 'https://fast.noss.workers.dev/1Gy4G8cr2c9XhYhIMOeHspdU9UK3vVUDM',
@@ -22,10 +22,11 @@ const playlist: Playlist = {
     },
   ],
 
-  image: 'https://image.tmdb.org/t/p/original/veXdzn7LL0bFIDGmE7tTkvRg0qV.jpg',
+  image:
+    'https://m.media-amazon.com/images/M/MV5BMTEwNTM0MDIxNjleQTJeQWpwZ15BbWU4MDgwMjkzMjIx._V1_.jpg',
   tracks: [
     {
-      file: 'https://thirsty-keller-bed1cc.netlify.app/api/subtitle?imdb=tt0988045',
+      file: 'https://thirsty-keller-bed1cc.netlify.app/api/subtitle?imdb=tt2015381',
       label: 'English',
       kind: 'captions',
     },
