@@ -10,13 +10,13 @@ const playlist: Playlist = {
     'Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose plot is a threat to all of England.',
   sources: [
     {
-      file: 'https://fast.noss.workers.dev/1im1k0cjdS8JpAyWSb8DHQF4unZk1PGIR',
+      file: 'https://fast.noss.workers.dev/1Gy4G8cr2c9XhYhIMOeHspdU9UK3vVUDM',
       type: 'video/mp4',
       label: '1080p',
       default: true,
     },
     {
-      file: 'https://fast.noss.workers.dev/1im1k0cjdS8JpAyWSb8DHQF4unZk1PGIR',
+      file: 'https://fast.noss.workers.dev/1Gy4G8cr2c9XhYhIMOeHspdU9UK3vVUDM',
       type: 'video/mp4',
       label: '720p',
     },
@@ -25,8 +25,7 @@ const playlist: Playlist = {
   image: 'https://image.tmdb.org/t/p/original/veXdzn7LL0bFIDGmE7tTkvRg0qV.jpg',
   tracks: [
     {
-      file:
-        'https://thirsty-keller-bed1cc.netlify.app/api/subtitle?imdb=tt0988045',
+      file: 'https://thirsty-keller-bed1cc.netlify.app/api/subtitle?imdb=tt0988045',
       label: 'English',
       kind: 'captions',
     },
