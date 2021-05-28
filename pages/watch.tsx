@@ -1,8 +1,6 @@
 import JWPlayer from '../components/JWPlayer';
 import { Playlist } from '../interfaces/player.interface';
 import { ScrollableContainer } from '../components/ReusableStyles';
-import WatchDetails from '../components/WatchDetails';
-import { sherlock } from '../utils/data';
 
 const playlist: Playlist = {
   title: 'Guardians of the Galaxy',
@@ -37,7 +35,7 @@ function watch() {
   return (
     <ScrollableContainer>
       <JWPlayer playlist={playlist} />
-      <WatchDetails movie={sherlock} />
+      {/* <WatchDetails movie={sherlock} /> */}
     </ScrollableContainer>
   );
 }
