@@ -3,18 +3,17 @@ import { Playlist } from '../interfaces/player.interface';
 import { ScrollableContainer } from '../components/ReusableStyles';
 
 const playlist: Playlist = {
-  title: 'Guardians of the Galaxy',
-  description:
-    'A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.',
+  title: 'Friends: The Reunion',
+  description: 'Original title: Friends Reunion Special',
   sources: [
     {
-      file: 'https://fast.noss.workers.dev/1Gy4G8cr2c9XhYhIMOeHspdU9UK3vVUDM',
+      file: 'https://fast.noss.workers.dev/1C0tDndXxMdDxyz6b5trYe0rm4BWI2sss',
       type: 'video/mp4',
       label: '1080p',
       default: true,
     },
     {
-      file: 'https://fast.noss.workers.dev/1Gy4G8cr2c9XhYhIMOeHspdU9UK3vVUDM',
+      file: 'https://fast.noss.workers.dev/1C0tDndXxMdDxyz6b5trYe0rm4BWI2sss',
       type: 'video/mp4',
       label: '720p',
     },
@@ -24,7 +23,7 @@ const playlist: Playlist = {
     'https://m.media-amazon.com/images/M/MV5BMTEwNTM0MDIxNjleQTJeQWpwZ15BbWU4MDgwMjkzMjIx._V1_.jpg',
   tracks: [
     {
-      file: 'https://thirsty-keller-bed1cc.netlify.app/api/subtitle?imdb=tt2015381',
+      file: 'https://thirsty-keller-bed1cc.netlify.app/api/subtitle?imdb=tt11337862',
       label: 'English',
       kind: 'captions',
     },
