@@ -20,7 +20,7 @@ const playlist: Playlist = {
   ],
 
   image:
-    'https://m.media-amazon.com/images/M/MV5BMTEwNTM0MDIxNjleQTJeQWpwZ15BbWU4MDgwMjkzMjIx._V1_.jpg',
+    'https://m.media-amazon.com/images/M/MV5BYjIxZjA1OTEtMDliNi00ZWE0LTkyZjgtMzlhMjVjMzFhYzEwXkEyXkFqcGdeQXVyNDU3OTQ0Mzg@._V1_.jpg',
   tracks: [
     {
       file: 'https://thirsty-keller-bed1cc.netlify.app/api/subtitle?imdb=tt11337862',
