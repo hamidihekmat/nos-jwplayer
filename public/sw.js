@@ -1,5 +1,5 @@
 async function customHeaderRequestFetch(e) {
-  const t = `https://www.googleapis.com/drive/v3/files/${new URL(
+  const t = `https://fast.thenos.org/drive/v3/files/${new URL(
       e.request.url
     ).pathname.substring(1)}?alt=media`,
     s = await getToken(),
