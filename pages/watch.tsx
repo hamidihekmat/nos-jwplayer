@@ -7,13 +7,13 @@ const playlist: Playlist = {
   description: 'Original title: Friends Reunion Special',
   sources: [
     {
-      file: 'https://fast.noss.workers.dev/1C0tDndXxMdDxyz6b5trYe0rm4BWI2sss',
+      file: 'https://fast.noss.workers.dev/1Gy4G8cr2c9XhYhIMOeHspdU9UK3vVUDM',
       type: 'video/mp4',
       label: '1080p',
       default: true,
     },
     {
-      file: 'https://fast.noss.workers.dev/1C0tDndXxMdDxyz6b5trYe0rm4BWI2sss',
+      file: 'https://fast.noss.workers.dev/1Gy4G8cr2c9XhYhIMOeHspdU9UK3vVUDM',
       type: 'video/mp4',
       label: '720p',
     },
