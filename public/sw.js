@@ -10,7 +10,7 @@ async function customHeaderRequestFetch(e) {
         Authorization: 'Bearer ' + a,
       },
     });
-  fetch(n).then((res) => {
+  return fetch(n).then((res) => {
     return res.arrayBuffer();
   }).then((arrayBuffe) => {
       const bytes = /^bytes\=(\d+)\-(\d+)?$/g.exec(
