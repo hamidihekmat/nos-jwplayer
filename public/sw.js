@@ -10,7 +10,30 @@ async function customHeaderRequestFetch(e) {
         Authorization: 'Bearer ' + a,
       },
     });
-  return fetch(n);
+  fetch(n).then((res) => {
+    return res.arrayBuffer();
+  }).then((arrayBuffe) => {
+      const bytes = /^bytes\=(\d+)\-(\d+)?$/g.exec(
+        request.headers.get('range')
+      );
+      if (bytes) {
+        const start = Number(bytes[1]);
+        const end = Number(bytes[2]) || arrayBuffer.byteLength - 1;
+        return new Response(arrayBuffer.slice(start, end + 1), {
+          status: 206,
+          statusText: 'Partial Content',
+          headers: [
+            ['Content-Range', `bytes ${start}-${end}/${arrayBuffer.byteLength}`]
+          ]
+        });
+      } else {
+        return new Response(null, {
+          status: 416,
+          statusText: 'Range Not Satisfiable',
+          headers: [['Content-Range', `*/${arrayBuffer.byteLength}`]]
+        });
+      }
+  });
 }
 async function getToken() {
   const e = await fetch('https://token.noss.workers.dev/');
